@@ -71,7 +71,7 @@
     margin-top: 4.5rem;
 }
 
-.footer_content .row .kolom4 .subscribe_box .btn_sub{
+.footer_content .row .kolom4 .btn_sub{
     border: none;
     border-radius: 0.75rem;
     background: rgba(237, 162, 74, 1);
@@ -83,42 +83,63 @@
     color: #FFFFFF;
 }
 
+.footer_content .row .kolom4 .btn_sub.hidden{
+    width: 100%;
+    margin-top: 1rem;
+}
+
 .footer_content .row.copy{
     margin-top: 4.375rem;
     text-align: center;
 }
 
+.footer_content .row.copy p{
+    font-weight: 400;
+    font-size: 0.75rem;
+    line-height: 148%;
+
+}
+
 @media only screen and (max-width:1025px) {
     .footer_area{
-        padding: 86px 70px 52px;
+        padding: 5.375rem 4.5rem 3.5rem;
     }
 }
 
-@media only screen and (max-width:769px) {
+@media only screen and (max-width:993px) {
+
     .footer_area{
-        padding: 86px 65px 52px;
+        padding: 5.375rem 4rem 3.875rem;
     }
 
-    .footer_content .row.copy .copy_teks{
-        display: none;
+    .footer_content p{
+        width:auto;
+    }
+
+    .footer_content .row .kolom4{
+        margin-top: 3rem;
     }
 }
 
-@media only screen and (max-width:426px){
+@media only screen and (max-width:577px){
     .footer_area{
-        padding: 35px 32px;
+        padding: 3rem 1.25rem;
     }
 
     .footer_area .footer_logo{
-        margin-bottom: 27px;
+        margin-bottom: 1rem;
     }
 
     .footer_content .footer_title{
-        margin-bottom: 25px;
+        margin-bottom: 1rem;
+    }
+
+    .footer_content .kol.kolom4 .footer_title{
+        margin-bottom: 1.5rem;
     }
 
     .footer_content .kol{
-        margin-bottom: 40px;
+        margin-bottom: 3rem;
     }
 
     .footer_content .row.copy{
