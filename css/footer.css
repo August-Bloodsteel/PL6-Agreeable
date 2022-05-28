@@ -7,7 +7,8 @@
 }
 
 .footer_area .footer_logo{
-    margin-bottom: 22px;
+    width: 11.375rem;
+    margin-bottom: 1.9rem;
 }
 
 .footer_content p{
@@ -19,53 +20,55 @@
     width: 25.75rem;
 }
 
-.footer_content p a{
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 150%;
-    letter-spacing: 0.005em;
-
-}
-
 .footer_content .footer_title{
     font-style: normal;
     font-weight: 600;
-    font-size: 24px;
-    line-height: 120%;
-    letter-spacing: 0.005em;
-    color: #FFFFFF;
+    font-size: 1.25rem;
+    line-height: 148%;
 
-    margin-bottom: 25px;
+    margin-bottom: 1.75rem;
 }
 
-.footer_content .kolom2 i{
-    font-size: 20px;
-    margin-right: 23px;
+.footer_content .kolom2 .slinks{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 148%;
+    color: #FFFFFF;
+
+    margin-bottom: 0.75rem;
 }
 
 .footer_content .kolom3 .qlinks{
     text-decoration: none;
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 148%;
     color: #FFFFFF;
-    margin-bottom: 10px;
+
+    margin-bottom: 0.75rem;
 }
 
 .footer_content .row .kolom4 .subscribe_box{
     padding: 0.75rem;
-    border-radius: 4px;
+    border-radius: 0.75rem;
     background: white;
 }
 
 .footer_content .row .kolom4 .subscribe_box .form_sub{
     width: 100%;
-    border-radius: 32px;
+    /* border-radius: 12px; */
     border: none;
     outline: none;
 
-    font-size: 14px;
-    line-height: 150%;
-    letter-spacing: 0.005em;
-    padding-left: 8px;
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 148%;    
+    color: rgba(0, 0, 0, 0.5)
+}
+
+.footer_content .row .kolom4{
+    margin-top: 4.5rem;
 }
 
 .footer_content .row .kolom4 .subscribe_box .btn_sub{
@@ -81,17 +84,13 @@
 }
 
 .footer_content .row.copy{
-    margin-top: 95px;
+    margin-top: 4.375rem;
     text-align: center;
 }
 
 @media only screen and (max-width:1025px) {
     .footer_area{
         padding: 86px 70px 52px;
-    }
-
-    .footer_content .row .kolom4{
-        margin-top: 25px;
     }
 }
 
