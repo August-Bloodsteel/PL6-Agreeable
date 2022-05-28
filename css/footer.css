@@ -1,0 +1,129 @@
+.footer_area{
+    background-color: rgba(11, 70, 25, 1);
+    font-family: 'Montserrat';
+    font-style: normal;
+    color: white;
+    padding: 4.375rem 13.875rem 4.375rem;
+}
+
+.footer_area .footer_logo{
+    margin-bottom: 22px;
+}
+
+.footer_content p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 148%;
+
+    width: 25.75rem;
+}
+
+.footer_content p a{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0.005em;
+
+}
+
+.footer_content .footer_title{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 120%;
+    letter-spacing: 0.005em;
+    color: #FFFFFF;
+
+    margin-bottom: 25px;
+}
+
+.footer_content .kolom2 i{
+    font-size: 20px;
+    margin-right: 23px;
+}
+
+.footer_content .kolom3 .qlinks{
+    text-decoration: none;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+
+.footer_content .row .kolom4 .subscribe_box{
+    padding: 0.75rem;
+    border-radius: 4px;
+    background: white;
+}
+
+.footer_content .row .kolom4 .subscribe_box .form_sub{
+    width: 100%;
+    border-radius: 32px;
+    border: none;
+    outline: none;
+
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0.005em;
+    padding-left: 8px;
+}
+
+.footer_content .row .kolom4 .subscribe_box .btn_sub{
+    border: none;
+    border-radius: 0.75rem;
+    background: rgba(237, 162, 74, 1);
+    padding: 0.525rem 2rem;
+    
+    font-weight: 600;
+    font-size: 1.25rem;
+    line-height: 148%;
+    color: #FFFFFF;
+}
+
+.footer_content .row.copy{
+    margin-top: 95px;
+    text-align: center;
+}
+
+@media only screen and (max-width:1025px) {
+    .footer_area{
+        padding: 86px 70px 52px;
+    }
+
+    .footer_content .row .kolom4{
+        margin-top: 25px;
+    }
+}
+
+@media only screen and (max-width:769px) {
+    .footer_area{
+        padding: 86px 65px 52px;
+    }
+
+    .footer_content .row.copy .copy_teks{
+        display: none;
+    }
+}
+
+@media only screen and (max-width:426px){
+    .footer_area{
+        padding: 35px 32px;
+    }
+
+    .footer_area .footer_logo{
+        margin-bottom: 27px;
+    }
+
+    .footer_content .footer_title{
+        margin-bottom: 25px;
+    }
+
+    .footer_content .kol{
+        margin-bottom: 40px;
+    }
+
+    .footer_content .row.copy{
+        margin-top: 43px;
+    }
+
+}
