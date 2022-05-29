@@ -99,3 +99,87 @@
 {
     color: white;
 }
+
+/* responsive */
+
+@media only screen and (max-width: 1024px)
+{
+    .kontak .text-wrap .res h1
+    {
+        font-size: 48px;
+    }
+    .kontak .isi
+    {
+        align-items: center;
+    }
+    .kontak .isi .map iframe
+    {
+        width: 19.5rem;
+        height: 19.5rem;
+        margin-right: 0px;
+        margin-bottom: 48px;
+    }
+
+    .kontak .isi .form form input
+    {
+
+        width: 19.5rem;
+        height: 4.5rem;
+        margin-bottom: 32px;
+
+    }
+
+    .kontak .isi .form form textarea
+    {
+
+        width: 19.5rem;
+        height: 17.25rem;
+    }
+
+    .kontak .isi .form form .sub
+    {
+        border: 1px solid rgba(0, 0, 0, 0.5);
+        border-radius: 12px;
+        margin-top: 32px;
+        width: 19.5rem;
+        height: 3rem;
+        background-color: #0B4619;
+        transition: 0.5s;
+    }
+    .kontak .isi .form form .sub span
+    {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 96%;
+        color: rgba(0, 0, 0, 0.75);
+        position: relative;
+        top: 2px;
+        transition: 0.5s;
+        color: white;
+    }
+    .kontak .isi .form form .sub .iconify
+    {
+        color: rgba(0, 0, 0, 0.75);
+        font-size: 24px;
+        transition: 0.5s;
+        color: white;
+    }
+    
+    /* hover */
+    
+    .kontak .isi .form form .sub:hover
+    {
+        width: 19.5rem;
+        background-color: #0B4619;
+    }
+    .kontak .isi .form form .sub:hover span
+    {
+        color: white;
+    }
+    .kontak .isi .form form .sub:hover .iconify
+    {
+        color: white;
+    }
+}
