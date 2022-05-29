@@ -1,0 +1,73 @@
+/* General Testimoni */
+.testimoni{
+    font-family: 'Montserrat';
+    font-style: normal;
+    background: rgba(17, 101, 48, 0.05);
+}
+
+.testimoni p,h1{
+    margin: 0;
+}
+
+/* Testimoni Title */
+.testimoni .testi_title{
+    width: 100%;
+    margin-top: 4.25rem;
+}
+
+.testimoni .testi_title h1{
+    font-family: 'Philosopher';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 4rem;
+    line-height: 96%;
+
+    color: rgba(11, 70, 25, 1);
+}
+
+/* Testimoni Image */
+.testimoni .img_holder{
+    margin-top: 4.25rem;
+}
+
+.testimoni .img_holder .stars{
+    margin: 3rem 0 3rem;
+}
+
+/* Testimoni Text */
+.testimoni .text_holder .testi_comm{
+    max-width: 34.5rem;
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 148%;
+    text-align: center;
+
+    color: rgba(0, 0, 0, 0.75);
+}
+
+.testimoni .text_holder .testi_name h1{
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 148%;
+
+    color: rgba(0, 0, 0, 0.75);
+    margin-top: 1.25rem;
+}
+
+.testimoni .text_holder .testi_rank h1{
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 148%;
+
+    color: rgba(0, 0, 0, 0.75);
+    margin-bottom: 4.5rem;
+}
+
+/* Carousel */
+.testimoni .control{
+    width: min-content;
+    height: min-content;
+
+    color: rgba(0, 0, 0, 0.75);
+    top: 42%;
+}
