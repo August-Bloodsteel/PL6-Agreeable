@@ -51,29 +51,67 @@
     color: rgba(0, 0, 0, 0.75);
 }
 
+.about .wrap-isi .wrap-fasi
+{
+    margin-top: 70px;
+}
+.about .wrap-isi .fasilitas h1
+{
+    font-family: 'Philosopher';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 96%;
+    color: #0B4619;
+    margin-bottom: 70px;
+}
+.about .wrap-isi .fasilitas .f .free h5
+{
+    margin-right: 175px;
+    margin-bottom: 36px;
+}
+.about .wrap-isi .fasilitas .f .free h5 span
+{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 148%;
+    color: #0B4619;
+    margin-left: 21px;
+}
+
 .about .wrap-isi .fasilitas .foto
 {
     width: 43.125rem;
     overflow: hidden;
     flex-wrap: wrap;
+    position: relative;
+    top: -120px;
 }
 .about .wrap-isi .fasilitas .foto .foto1 img
 {
     width: 17.625rem;
     height: 15.688rem;
+    margin-right: 24px;
+    margin-bottom: 24px;
 }
 .about .wrap-isi .fasilitas .foto .foto2 img
 {
     width: 24rem;
     height: 15.688rem;
+    margin-bottom: 24px;
 }
 .about .wrap-isi .fasilitas .foto .foto3 img
 {
     width: 24rem;
     height: 15.688rem;
+    margin-right: 24px;
+    margin-bottom: 24px;
 }
 .about .wrap-isi .fasilitas .foto .foto4 img
 {
     width: 17.625rem;
     height: 15.688rem;
+    margin-bottom: 24px;
 }
