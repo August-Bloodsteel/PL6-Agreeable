@@ -1,0 +1,79 @@
+.wrap-isi
+{
+    overflow: visible;
+}
+
+.about .us 
+{
+    width: 36.75rem;
+    margin-right: 640px;
+}
+.about .us h1
+{
+    font-family: 'Philosopher';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 96%;
+    color: #0B4619;
+    margin-bottom: 64px;
+    margin-right: 400px;
+    width: 262px;
+}
+.about .ceo .g-ceo img
+{
+    width: 36.75rem;
+    height: 20.813rem;
+    margin-right: 64px;
+}
+.about .ceo .quote 
+{
+    margin-right: 140px;
+}
+.about .ceo .quote h5
+{
+    width: 27.625rem;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 148%;
+    color: rgba(0, 0, 0, 0.75);
+}
+.about .ceo .quote h4
+{
+    width: 27.625rem;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 148%; 
+    color: rgba(0, 0, 0, 0.75);
+}
+
+.about .wrap-isi .fasilitas .foto
+{
+    width: 43.125rem;
+    overflow: hidden;
+    flex-wrap: wrap;
+}
+.about .wrap-isi .fasilitas .foto .foto1 img
+{
+    width: 17.625rem;
+    height: 15.688rem;
+}
+.about .wrap-isi .fasilitas .foto .foto2 img
+{
+    width: 24rem;
+    height: 15.688rem;
+}
+.about .wrap-isi .fasilitas .foto .foto3 img
+{
+    width: 24rem;
+    height: 15.688rem;
+}
+.about .wrap-isi .fasilitas .foto .foto4 img
+{
+    width: 17.625rem;
+    height: 15.688rem;
+}
