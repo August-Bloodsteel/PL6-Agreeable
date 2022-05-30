@@ -69,5 +69,43 @@
     height: min-content;
 
     color: rgba(0, 0, 0, 0.75);
-    top: 42%;
+    top: 26rem;
+}
+
+@media only screen and (max-width:577px) {
+    /* Tesimoni Image Android */
+    .testimoni .img_holder .img_orang img{
+        max-width: 21.5rem;
+    }
+
+    /* Testimoni Text */
+    .testimoni .text_holder .testi_comm{
+        font-size: 1rem;
+        text-align: left;
+
+        width: 21.5rem;
+    }
+
+    /* Carousel Android */
+    .testimoni .control{
+        top: 23.5rem;
+    }
+}
+
+@media only screen and (max-width:321px) {
+    /* Tesimoni Image Android */
+    .testimoni .img_holder .img_orang img{
+        max-width: 18.5rem;
+    }
+
+    /* Testimoni Text */
+    .testimoni .text_holder .testi_comm{
+        width: 18.5rem;
+    }
+
+    /* Carousel Android */
+    .testimoni .control{
+            top: 21rem;
+    }
+
 }
