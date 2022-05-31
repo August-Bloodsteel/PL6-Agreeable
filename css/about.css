@@ -126,7 +126,15 @@
     font-size: 48px;
 }
 
-
+@media only screen and (max-width: 1400px)
+{
+    .about .wrap-isi .fasilitas .f .free h5
+    {
+        width: 23.125rem;
+        margin-right: 0px;
+        margin-bottom: 36px;
+    }
+}
 
 /* responsive */
 @media only screen and (max-width: 980px)
