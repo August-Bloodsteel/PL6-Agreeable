@@ -52,19 +52,30 @@
   }
   
   .nav-links ul li a {
-    text-decoration: none;
+    font-family: 'Montserrat';
+    font-style: normal;
     font-weight: 400;
     font-size: 20px;
-    line-height: 150%;
-    color: #ffffff;
-    transition: 0.01s;
+    line-height: 96%;
+    color: #FFFFFF;
+    transition: 0.1s;
+    text-decoration: none;
   }
   
-  .nav-links ul li a:hover {
-    text-decoration: underline solid white;
+  .nav-links ul li a:after
+  {
+    content: "";
+    position: absolute;
+    background-color: white;
+    height: 0.5px;
+    width: 0%;
+    left: 0;
+    bottom: -10px;
     transition: 0.5s;
-    font-size: 20px;
-    font-weight: bold;
+  }
+  .nav-links ul li a:hover:after {
+    transition: 0.5s;
+    width: 100%;
   }
   
   @media only screen and (max-width: 1025px) {
@@ -90,37 +101,46 @@
     }
   
     .nav-links ul li a {
-      font-weight: 500;
-      font-size: 18px;
-      line-height: 115%;
+      font-family: 'Philosopher';
+      font-style: italic;
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 96%;
+
+      color: #FFFFFF;
       z-index: 1000;
-      color: rgba(0, 0, 0, 0.75);
+      color: white;
     }
     .nav-links ul li {
       /* /* height: 100vh;
           width: 100vw; */
-      background-color: #ebf0c5;
-      border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+      background-color: #116530;;
       width: 100vw;
-      height: 85px;
+      height: 55px;
       display: flex;
       justify-content: center;
       align-items: center;
+      padding-top: 48px;
     }
+
+    .nav-links ul .l2
+    {
+      padding-bottom: 48px;
+    } 
     .nav-links ul {
       display: flex;
       align-items: center;
       justify-content: center;
       flex-direction: column;
       background-color: red;
-      height: 26.563rem;
+      height: 21.188rem;
       width: 100vw;
     }
   
     .nav-links {
       position: absolute;
       background: #0B4619;
-      height: 26.563rem;
+      height: 2.563rem;
       width: 100vw;
       top: 80px;
       right: 0px;

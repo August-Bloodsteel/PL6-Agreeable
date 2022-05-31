@@ -16,6 +16,7 @@
     font-size: 64px;
     line-height: 96%;
     color: #0B4619;
+    margin-top: 200px;
     margin-bottom: 64px;
     margin-right: 400px;
     width: 262px;
@@ -69,6 +70,10 @@
 {
     margin-right: 175px;
     margin-bottom: 36px;
+}
+.about .wrap-isi .fasilitas .f .free .parkir
+{
+    margin-bottom: 49px;
 }
 .about .wrap-isi .fasilitas .f .free h5 span
 {
