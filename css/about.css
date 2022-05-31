@@ -68,7 +68,7 @@
 }
 .about .wrap-isi .fasilitas .f .free h5
 {
-    margin-right: 175px;
+    margin-right: 5px;
     margin-bottom: 36px;
 }
 .about .wrap-isi .fasilitas .f .free .parkir
@@ -88,11 +88,11 @@
 
 .about .wrap-isi .fasilitas .foto
 {
-    width: 43.125rem;
+    width: 53.125rem;
     overflow: hidden;
     flex-wrap: wrap;
     position: relative;
-    top: -120px;
+    top: -130px;
 }
 .about .wrap-isi .fasilitas .foto .foto1 img
 {
@@ -126,7 +126,15 @@
     font-size: 48px;
 }
 
-
+@media only screen and (max-width: 1400px)
+{
+    .about .wrap-isi .fasilitas .f .free h5
+    {
+        width: 23.125rem;
+        margin-right: 0px;
+        margin-bottom: 36px;
+    }
+}
 
 /* responsive */
 @media only screen and (max-width: 980px)
@@ -228,6 +236,7 @@
 
     .about .wrap-isi .fasilitas .f .free h5
     {
+        width: 20.125rem;
         margin-right: 0px;
         margin-left: 16px;
         margin-bottom: 26px;
