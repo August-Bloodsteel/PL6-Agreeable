@@ -11,7 +11,44 @@
 }
 
 .header .box.kiri .left_holder .info_holder .rotate{
+    margin-top: 16.5rem;
     transform: rotate(-90deg);
+}
+
+.header .box.kiri .left_holder .info_holder .rotate a{
+    text-decoration: none;
+    min-height: 1rem;
+    min-width: fit-content;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 96%;
+
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.header .box.kiri .left_holder .info_holder .rotate .email{
+    margin-right: 2rem;
+}
+
+.header .box.kiri .left_holder .info_holder .rotate .telp{
+    margin-right: 4rem;
+}
+
+.header .box.kiri .left_holder .icon_holder a{
+    font-size: 1.25rem;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.header .box.kiri .left_holder .icon_holder a .ig{
+    margin-bottom: 2.75rem;
+}
+
+
+.header .box.kiri .left_holder .icon_holder a .tiktok{
+    margin-bottom: 4.5rem;
 }
 
 .header .box.kanan{
@@ -83,4 +120,131 @@
     background-color: rgba(11, 70, 25, 1);
     border: 1px solid #0B4619;
     color: white;
+}
+
+@media only screen and (max-width:1025px) {
+    .header .box.kanan .right_holder .img_main{
+        width: 23rem;
+    }
+
+    .header .box.kanan .right_holder .header_title{
+        margin-top: 3rem;
+    }
+    
+    .header .box.kanan .right_holder .header_para{
+        width: 25rem;
+    }
+
+    .header .box.kiri .left_holder .info_holder .rotate{
+        margin-top: 13.25rem;
+    }
+
+    .header .box.kiri .left_holder .info_holder .rotate a{
+        font-size: 0.75rem;
+    }
+
+    .header .box.kiri .left_holder .info_holder .rotate .telp{
+        margin-right: 0rem;
+    }
+
+    .header .box.kiri .left_holder .icon_holder a .ig{
+        margin-bottom: 1.75rem;
+    }
+
+    .header .box.kiri .left_holder .icon_holder a .tiktok{
+        margin-bottom: 2.5rem;
+    }
+
+    .header .box_bawah{
+        padding: 3rem 0;
+    }
+    
+}
+
+@media only screen and (max-width:993px) {
+    .header .box{
+        height: 100%;
+    }
+
+    .header .box.kanan .right_holder .header_title{
+        margin-top: 8rem;
+    }
+
+    .header .box.kanan .right_holder .header_para{
+        margin-bottom: 6.25rem;
+    }
+
+
+    .header .box.kanan .right_holder .img_main{
+        top: 26.5rem;
+    }
+
+    .header .box_bawah{
+        padding: 19rem 0 2rem;
+    }
+
+    .header .box_bawah .learn{
+        width: 23rem;
+        background-color: rgba(11, 70, 25, 1);
+        border: 1px solid #0B4619;
+        color: white;
+    }
+
+    .header .box_bawah .learn:hover{
+        width: 23rem;
+        background-color: rgba(11, 70, 25, 1);
+        border: 1px solid #0B4619;
+        color: white;
+    }
+
+    .header .box.kiri .left_holder{
+        margin-top: 0rem;
+        margin-bottom: 3rem;
+        width: 100%;
+    }
+
+    .header .box.kiri .left_holder .icon_holder a .tiktok{
+        margin-bottom: 0rem;
+    }
+
+    .header .box.kiri .left_holder .icon_holder a .ig{
+        margin-bottom: 0rem;
+    }
+}
+
+@media only screen and (max-width:577px) {
+    .header .box.kanan .right_holder .header_title{
+        font-size: 3rem;
+        margin-top: 3rem;
+        width: 19.5rem;
+    }
+
+    .header .box.kanan .right_holder .header_para{
+        font-size: 1rem;
+        width: 17.5rem;
+    }
+
+    .header .box.kanan .right_holder .img_main{
+        width: 19.5rem;
+        top: 20rem;
+    }
+
+    .header .box_bawah{
+        padding: 16rem 0 2rem;
+    }
+}
+
+@media only screen and (max-width:321px){
+    .header .box.kanan .right_holder .header_title{
+        width: 16rem;
+    }
+
+    .header .box.kanan .right_holder .img_main{
+        width: 16.5rem;
+        top: 23rem;
+    }
+
+    .header .box_bawah{
+        padding: 13rem 0 2rem;
+    }
 }
