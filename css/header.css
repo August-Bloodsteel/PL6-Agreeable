@@ -1,0 +1,73 @@
+/* Genral Header */
+.header{
+    width: 100%;
+    height: 100vh;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+}
+
+.header p,h1,a{
+    margin: 0;
+    text-decoration: none;
+}
+
+.header .bungkus{
+    height: 100%;
+    width: 100%;
+}
+
+/* Box Kiri */
+.header .box_kiri{
+    width: 10%;
+    height: 100vh;
+}
+
+.header .box_kiri .holder_kiri{
+    width: 100%;
+    height: 90%;
+}
+
+.header .box_kiri .holder_kiri .text_holder a{
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 96%;    
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.header .box_kiri .holder_kiri .text_holder .rotate{
+    transform: rotate(-90deg);
+}
+
+.header .box_kiri .holder_kiri .text_holder .rotate.email{
+    margin: 10rem 0 13rem;
+}
+
+.header .box_kiri .holder_kiri .icon_holder a{
+    font-size: 1.25rem;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.header .box_kiri .holder_kiri .icon_holder a .ig{
+    margin-bottom: 2.5rem;
+}
+
+.header .box_kiri .holder_kiri .icon_holder a .tiktok{
+    margin-bottom: 4.75rem;
+}
+
+/* Box Atas */
+.header .box_atas{
+    width: 90%;
+    height: 60%;
+}
+
+.header .box_atas .img_holder{
+    width: 100%;
+}
+
+/* Box Bawah */
+.header .box_bawah{
+    width: 90%;
+    height: 30%;
+}
