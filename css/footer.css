@@ -104,6 +104,10 @@
     .footer_area{
         padding: 5.375rem 4.5rem 3.5rem;
     }
+    .footer_content p
+    {
+        font-size: 16px;
+    }
 }
 
 @media only screen and (max-width:993px) {
